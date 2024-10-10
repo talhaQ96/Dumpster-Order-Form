@@ -1,0 +1,21 @@
+{
+  "name": "section-order-now",
+  "title": "Order Form",
+  "description": "Make it easy for customers to place an order.",
+  "category": "sections",
+  "icon": "cart",
+  "apiVersion": 2,
+  "keywords": [
+    "Order Now",
+	"Order"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "./section-order-now/section-order-now.php"
+  },
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "defaultStylePicker": false
+  }
+}
