@@ -1,7 +1,7 @@
 # Dumpster Order Form
 Custom Dumpster Order Form with real-time order placement and payment processing, built for a client to streamline online orders directly through their website.
 
-## Features
+## Features :sparkles:
 ### Core Features
 1. The form allows users to place orders by filling out the required fields.
 2. Upon submission, an order entry is created in the backend as a custom post type.
@@ -16,10 +16,10 @@ Additional features were incorporated into the form to meet the client’s speci
 4. The total order period for the dumpster cannot exceed 14 days. Therefore, the order period is calculated based on the drop-off and pick-up dates, preventing submission if it exceeds 14 days."
 5. Users can enter a coupon code to apply a real-time discount (Coupons can be managed from the admin panel).
 
-## Development Approach
+## Development Approach :hammer_and_wrench:
 Since the website was built on WordPress using custom ACF Blocks, I created the custom HTML form as an ACF Block. To address the challenges, I processed the form with PHP and JavaScript, utilizing the Fetch API and the wp_ajax hook. This approach allowed me to implement all the required features and overcome the challenges. Additionally, I integrated real-time payment processing through the Fluidpay API using cURL.
 
-## Technologies Used
+## Technologies Used :computer:
 1. HTML/CSS: For form structure and styling.
 2. Advanced Custom Fields (ACF): Used to create dynamic fields for the coupon code, order cutoff time, email settings, and API keys.
 3. PHP: For backend processing of the form and handling AJAX requests.
