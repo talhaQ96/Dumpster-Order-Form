@@ -20,8 +20,8 @@ Additional features were incorporated into the form to meet the client’s speci
 Since the website was built on WordPress using custom ACF Blocks, I created the custom HTML form as an ACF Block. To address the challenges, I processed the form with PHP and JavaScript, utilizing the Fetch API and the wp_ajax hook. This approach allowed me to implement all the required features and overcome the challenges. Additionally, I integrated real-time payment processing through the Fluidpay API using cURL.
 
 ## Technologies Used :computer:
-1. HTML/CSS: For form structure and styling.
-2. PHP: For backend processing of the form and handling AJAX requests.
-3. JavaScript (with jQuery): For client-side form handling and using the Fetch API.
-4. Advanced Custom Fields (ACF): Used to create dynamic fields for the coupon code, order cutoff time, email settings, and API keys.
-5. Fluidpay: For real-time payment processing.
+1. **HTML/CSS:** For form structure and styling.
+2. **PHP:** For backend processing of the form and handling AJAX requests.
+3. **JavaScript (with jQuery):** For client-side form handling and using the Fetch API.
+4. **Advanced Custom Fields (ACF):** Used to create dynamic fields for the coupon code, order cutoff time, email settings, and API keys.
+5. **Fluidpay:** For real-time payment processing.
