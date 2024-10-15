@@ -21,7 +21,7 @@ Since the website was built on WordPress using custom ACF Blocks, I created the 
 
 ## Technologies Used :computer:
 1. HTML/CSS: For form structure and styling.
-2. Advanced Custom Fields (ACF): Used to create dynamic fields for the coupon code, order cutoff time, email settings, and API keys.
-3. PHP: For backend processing of the form and handling AJAX requests.
-4. JavaScript (with jQuery): For client-side form handling and using the Fetch API.
+2. PHP: For backend processing of the form and handling AJAX requests.
+3. JavaScript (with jQuery): For client-side form handling and using the Fetch API.
+4. Advanced Custom Fields (ACF): Used to create dynamic fields for the coupon code, order cutoff time, email settings, and API keys.
 5. Fluidpay: For real-time payment processing.
